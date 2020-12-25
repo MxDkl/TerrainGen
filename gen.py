@@ -55,6 +55,7 @@ def perlin_img_gen(image, map_size=200000):
 		for y in range(length):
 			 hight = int(data[x][y]/5) + 20
 			 f.write(command([length-x, hight, y]))
+	f.close()
 
 
 #simplex_gen()
